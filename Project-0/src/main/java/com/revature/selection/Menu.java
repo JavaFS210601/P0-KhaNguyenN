@@ -29,7 +29,7 @@ public class Menu {
 		Scanner input = new Scanner(System.in);
 		
 		
-		
+		//P0 is called TEACHER RATER//
 		System.out.println("==================================================="
 				+ "\n          Welcome to Teacher Rater\n"
 				+ "===================================================");
@@ -50,8 +50,8 @@ public class Menu {
 			System.out.println("||Add review -> Add a review for a teacher       ||");
 			System.out.println("||Remove review -> Remove a review for a teacher ||");
 			System.out.println("||Change review -> Change a previous review      ||");
-			System.out.println("||exit -> exit the applications                  ||");
-			
+			System.out.println("||Exit -> exit the applications                  ||");
+			System.out.println("\n\n");
 			
 			String userInput = input.nextLine().toLowerCase();
 			
@@ -67,7 +67,7 @@ public class Menu {
 					System.out.println(teachers);
 				}
 				System.out.println("Did you want it sorted?");
-				System.out.println("Options: Highest Rated or Lowest Rated or None");
+				System.out.println("Options: Highest Rated or Lowest Rated or Other");
 				String sortedString = input.nextLine().toLowerCase();
 				
 				if (sortedString.equals("highest rated")) {
@@ -92,7 +92,8 @@ public class Menu {
 				}
 					
 				else {
-					System.out.println("None of the options");
+					System.out.println("Other chosed");
+					log.info("User used other options");
 					break;
 				}
 				
@@ -111,7 +112,7 @@ public class Menu {
 			}
 				case "exit": {
 				log.info("User exit the program");
-				System.out.println("Bye");
+				System.out.println("Exiting program...");
 				displayMenu = false;
 				break;
 			}

@@ -41,10 +41,13 @@ values(705332,'Jana', 'Page', 3, 'Teacher was okay, nothing too bad but nothing 
 	  (887733,'Lonnie', 'Manning', 2, 'Bad', 7);
 	  
 select * from student_things;	 
-select student_firstname, student_lastname from student_things where student_idnumber = 973181;
-drop table teacher_things;
-drop table student_things;
-Update student_things SET student_comments = 'Heck naw' , student_rating= 2 where student_id = 665325;
-select student_comments, student_rating from student_things where student_id =665325;
-select * from teacher_things order by teacher_rating desc;
+
+
+
+--select student_firstname, student_lastname from student_things where student_idnumber = 973181;
+--drop table teacher_things;
+--drop table student_things;
+--Update student_things SET student_comments = 'Heck naw' , student_rating= 2 where student_id = 665325;
+--select student_comments, student_rating from student_things where student_id =665325;
+--select * from teacher_things order by teacher_rating desc;
 	 

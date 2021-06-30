@@ -89,8 +89,8 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return student_id + " Student" + forLook + "\nTeacher_id=" + teacher_id_fk + "\n" + student_firstname + " " +student_lastname 
-				+ "\n \n" + student_comments + "\nTeacher rating " + student_rating + "\n\n";
+		return "Student\n" + forLook + "\nStudent ID = " + student_id + "\nTeacher ID = " + teacher_id_fk + "\nStudent's Name: " + student_firstname + " " +student_lastname 
+				+ "\nStudent Comments: " + student_comments + "\nTeacher rating: " + student_rating + "\n\n";
 	}
 	
 	public int getStudent_id() {

@@ -36,8 +36,8 @@ public class Teacher {
 	
 	@Override
 	public String toString() {
-		return "Teacher" + forLook + "\nTeacher_id=" + teacher_id + "\n" + teacher_firstname + " " + teacher_lastname 
-				+ "\n" + teacher_subject + "\nTeacher rating " + teacher_rating + "\n\n";
+		return "Teacher\n" + forLook + "\nTeacher ID = " + teacher_id + "\nTeacher's Name = " + teacher_firstname + " " + teacher_lastname 
+				+ "\nTeacher Subject = " + teacher_subject + "\nTeacher rating = " + teacher_rating + "\n\n";
 	}
 
 	
